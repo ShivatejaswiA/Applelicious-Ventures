@@ -33,6 +33,13 @@ We resolved the issue after removing minor error.
 
 1520- Added 5 more apples items in the database..
 
+1530 - Made changes in Readme
+
+1545 - We got sql exception so we resolved it by making changes in CRUD files
+
+1600 - Started reviewing the project and git hub publishing.
+
+1630 - Ended up creating and uploading link.
 
 
 
