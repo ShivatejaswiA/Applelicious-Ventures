@@ -17,15 +17,15 @@ namespace Applelicious_Ventures.Models;
                     DbContextOptions<Applelicious_VenturesContext>>()))
             {
                 // Look for any movies.
-                if (context.Apple.Any())
-                {
+               if (context.Apple.Any())
+               {
                     return;   // DB has been seeded
                 }
             context.Apple.AddRange(
                 new Apple
                 {
                     Origin = "India",
-                    ImportDate = DateTime.Parse("-2-12"),
+                    ImportDate = DateTime.Parse("2024-2-12"),
                     Color = "Romantic Comedy",
                     Price = 7.99M,
                    
