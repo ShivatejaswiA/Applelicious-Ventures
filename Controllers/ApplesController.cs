@@ -10,6 +10,7 @@ using Applelicious_Ventures.Models;
 
 namespace Applelicious_Ventures.Controllers
 {
+    //For Comment
     public class ApplesController : Controller
     {
         private readonly Applelicious_VenturesContext _context;
