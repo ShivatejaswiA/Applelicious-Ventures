@@ -3,6 +3,7 @@ using Microsoft.AspNetCore.Mvc;
 using System.Diagnostics;
 
 namespace Applelicious_Ventures.Controllers
+    //Comment code
 {
     public class HomeController : Controller
     {
