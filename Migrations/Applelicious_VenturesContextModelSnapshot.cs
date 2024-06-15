@@ -41,6 +41,10 @@ namespace Applelicious_Ventures.Migrations
 
                     b.Property<decimal>("Price")
                         .HasColumnType("decimal(18,2)");
+                    b.Property<string>("Nutrients") //line add
+                       .HasColumnType("nvarchar(max)");
+                    b.Property<string>("Shape") //Line add
+                       .HasColumnType("nvarchar(max)");
 
                     b.HasKey("Id");
 

@@ -20,7 +20,11 @@ namespace Applelicious_Ventures.Migrations
                     Origin = table.Column<string>(type: "nvarchar(max)", nullable: true),
                     ImportDate = table.Column<DateTime>(type: "datetime2", nullable: false),
                     Color = table.Column<string>(type: "nvarchar(max)", nullable: true),
-                    Price = table.Column<decimal>(type: "decimal(18,2)", nullable: false)
+                    Price = table.Column<decimal>(type: "decimal(18,2)", nullable: false),
+                    Nutrients = table.Column<string>(type: "nvarchar(max)", nullable: true),
+                    Shape = table.Column<string>(type: "nvarchar(max)", nullable: true)
+
+
                 },
                 constraints: table =>
                 {

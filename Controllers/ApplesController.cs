@@ -57,7 +57,7 @@ namespace Applelicious_Ventures.Controllers
         // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Create([Bind("Id,Origin,ImportDate,Color,Price")] Apple apple)
+        public async Task<IActionResult> Create([Bind("Id,Origin,ImportDate,Color,Price,Nutrients,Shape")] Apple apple)
         {
             if (ModelState.IsValid)
             {
@@ -89,7 +89,7 @@ namespace Applelicious_Ventures.Controllers
         // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Edit(int id, [Bind("Id,Origin,ImportDate,Color,Price")] Apple apple)
+        public async Task<IActionResult> Edit(int id, [Bind("Id,Origin,ImportDate,Color,Price,Nutrients,Shape")] Apple apple)
         {
             if (id != apple.Id)
             {

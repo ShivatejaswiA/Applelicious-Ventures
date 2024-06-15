@@ -24,7 +24,12 @@
             <th>
                 @Html.DisplayNameFor(model => model.Price)
             </th>
-           
+            <th> //lINE ADD
+                @Html.DisplayNameFor(model => model.Nutrients) 
+            </th>
+            <th> //line Add
+                @Html.DisplayNameFor(model => model.Shape)
+            </th>
             <th></th>
         </tr>
     </thead>
@@ -43,6 +48,12 @@
             <td>
                 @Html.DisplayFor(modelItem => item.Price)
             </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Nutrients)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Shape)
+                </td>
             <td>
                 <a asp-action="Edit" asp-route-id="@item.Id">Edit</a> |
                 <a asp-action="Details" asp-route-id="@item.Id">Details</a> |
