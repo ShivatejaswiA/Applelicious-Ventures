@@ -23,8 +23,6 @@ namespace Applelicious_Ventures.Migrations
                     Price = table.Column<decimal>(type: "decimal(18,2)", nullable: false),
                     Nutrients = table.Column<string>(type: "nvarchar(max)", nullable: true),
                     Shape = table.Column<string>(type: "nvarchar(max)", nullable: true)
-
-
                 },
                 constraints: table =>
                 {

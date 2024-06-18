@@ -36,15 +36,17 @@ namespace Applelicious_Ventures.Migrations
                     b.Property<DateTime>("ImportDate")
                         .HasColumnType("datetime2");
 
+                    b.Property<string>("Nutrients")
+                        .HasColumnType("nvarchar(max)");
+
                     b.Property<string>("Origin")
                         .HasColumnType("nvarchar(max)");
 
                     b.Property<decimal>("Price")
                         .HasColumnType("decimal(18,2)");
-                    b.Property<string>("Nutrients") //line add
-                       .HasColumnType("nvarchar(max)");
-                    b.Property<string>("Shape") //Line add
-                       .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("Shape")
+                        .HasColumnType("nvarchar(max)");
 
                     b.HasKey("Id");
 

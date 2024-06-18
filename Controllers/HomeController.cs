@@ -1,6 +1,9 @@
 ﻿using Applelicious_Ventures.Models;
 using Microsoft.AspNetCore.Mvc;
+
 using System.Diagnostics;
+
+
 
 namespace Applelicious_Ventures.Controllers
     //Comment code
@@ -14,11 +17,12 @@ namespace Applelicious_Ventures.Controllers
             _logger = logger;
         }
 
+       
         public IActionResult Index()
         {
             return View();
         }
-
+        
         public IActionResult Privacy()
         {
             return View();
@@ -27,7 +31,7 @@ namespace Applelicious_Ventures.Controllers
         {
             return View();
         }
-
+       
         [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
         public IActionResult Error()
         {

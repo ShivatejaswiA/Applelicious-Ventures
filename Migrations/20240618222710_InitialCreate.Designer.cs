@@ -12,7 +12,7 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace Applelicious_Ventures.Migrations
 {
     [DbContext(typeof(Applelicious_VenturesContext))]
-    [Migration("20240613191401_InitialCreate")]
+    [Migration("20240618222710_InitialCreate")]
     partial class InitialCreate
     {
         /// <inheritdoc />
@@ -39,17 +39,17 @@ namespace Applelicious_Ventures.Migrations
                     b.Property<DateTime>("ImportDate")
                         .HasColumnType("datetime2");
 
+                    b.Property<string>("Nutrients")
+                        .HasColumnType("nvarchar(max)");
+
                     b.Property<string>("Origin")
                         .HasColumnType("nvarchar(max)");
 
                     b.Property<decimal>("Price")
                         .HasColumnType("decimal(18,2)");
 
-                    b.Property<string>("Nutrients") //Line Add
-                       .HasColumnType("nvarchar(max)");
-
-                    b.Property<string>("Shape") //Line Add
-                    .HasColumnType("nvarchar(max)");
+                    b.Property<string>("Shape")
+                        .HasColumnType("nvarchar(max)");
 
                     b.HasKey("Id");
 
