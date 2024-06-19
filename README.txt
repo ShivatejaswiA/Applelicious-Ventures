@@ -41,6 +41,22 @@ We resolved the issue after removing minor error.
 
 1630 - Ended up creating and uploading link.
 
+2024-06-18
+2220 EDT
+Delta 
+
+2220- There was "InvalidOperationException:An exception has been raised that 
+is likely due to a transient failure." error in Anjan's Machine.
+
+2240 - Dhairya and Anjan troubleshooted the issue by downloading Microsoft.EntityFramework
+package from Nuget Solution.
+
+2245- From Nuget Package Manager Console executed Update-Database command and it was successful.
+
+2250- The Good News - it started running in Anjan's Machine.
+
+
+
 
 
 
