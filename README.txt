@@ -23,7 +23,7 @@ The migration timestamp is: 20240613191401_InitialCreate
 1425 - Encountered with the errors and the team is troubleshooting now……..
 	Looking for the spelling mistakes and semicolon missing…
 
-1450- found the spelling mistake and fixed it
+1450 - found the spelling mistake and fixed it
 
 1500 - Team Took a break..
 
@@ -31,7 +31,7 @@ The migration timestamp is: 20240613191401_InitialCreate
 import date, price, and taste, edited the CRUD .cs files, we are getting errors.
 We resolved the issue after removing minor error.
 
-1520- Added 5 more apples items in the database..
+1520 - Added 5 more apples items in the database..
 
 1530 - Made changes in Readme
 
@@ -42,18 +42,21 @@ We resolved the issue after removing minor error.
 1630 - Ended up creating and uploading link.
 
 2024-06-18
-2220 EDT
-Delta 
+2220 EDT 
 
-2220- There was "InvalidOperationException:An exception has been raised that 
+2220 - There was "InvalidOperationException:An exception has been raised that 
 is likely due to a transient failure." error in Anjan's Machine.
 
 2240 - Dhairya and Anjan troubleshooted the issue by downloading Microsoft.EntityFramework
 package from Nuget Solution.
 
-2245- From Nuget Package Manager Console executed Update-Database command and it was successful.
+2245 - From Nuget Package Manager Console executed Update-Database command and it was successful.
 
-2250- The Good News - it started running in Anjan's Machine.
+2250 - The Good News - it started running in Anjan's Machine.
+
+2024-06-19
+
+
 
 
 
