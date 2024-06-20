@@ -41,13 +41,27 @@ We resolved the issue after removing minor error.
 
 1630 - Ended up creating and uploading link.
 
+2300 - from the comfort of our home, we made changes in the code, got 
+few errors and troubleshooted and fixed the bugs.
 
+2325 - Started working on designing the frontend of our web application.
 
-2300 - from the comfort of our home, we made changes to upgrade
-the frontend style and layouts.
+2358 - Did migration and added the timestamp.
 
+ 2024-06-14
+ 0000 - started making changes to our frontend so that it will look good and relavent to our product.
 
+ 0010 - Updated the timestamp
 
+ 0020 - Pushed all the work to git.
+
+ 2024-06-15
+
+ 1750 - resumed our working and started working on DB.
+
+ 1850 - We got errors related to database ,troubleshooted the errors and fixed the bugs.
+
+ 2045 - Started working on Authorization
 
 2024-06-18
 2220 EDT 
@@ -64,12 +78,19 @@ package from Nuget Solution.
 
 2024-06-19
 
-there is an error in database
-did it right
-command
-version mismatech
-about us
-privacy
+Resumed our work on frontend development.
+
+2300-Update or Index and privacy pages.
+
+2324 - Made changes in the about us page.
+
+2345 - Updated the changes and checked it on the Web app and we can see the changes.
+
+2024-06-20
+
+0000 - we found a error in database again,tried solving and succeeded.
+
+0020 - commited all the work team did and update the git.
 
 
 
