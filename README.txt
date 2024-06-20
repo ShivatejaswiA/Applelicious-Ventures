@@ -41,6 +41,14 @@ We resolved the issue after removing minor error.
 
 1630 - Ended up creating and uploading link.
 
+
+
+2300 - from the comfort of our home, we made changes to upgrade
+the frontend style and layouts.
+
+
+
+
 2024-06-18
 2220 EDT 
 
@@ -55,6 +63,14 @@ package from Nuget Solution.
 2250 - The Good News - it started running in Anjan's Machine.
 
 2024-06-19
+
+there is an error in database
+did it right
+command
+version mismatech
+about us
+privacy
+
 
 
 
