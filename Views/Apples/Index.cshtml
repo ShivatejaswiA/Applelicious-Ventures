@@ -101,9 +101,7 @@
 <body>
     <h1>@ViewData["Title"]</h1>
 
-    <p>
-        <a asp-action="Create" class="btn">Create New</a>
-    </p>
+   
 
     <div class="products">
         @foreach (var item in Model)
@@ -116,11 +114,7 @@
                 <p>Nutrients: @Html.DisplayFor(modelItem => item.Nutrients)</p>
                 <p>Shape: @Html.DisplayFor(modelItem => item.Shape)</p>
                 <p class="price">$@Html.DisplayFor(modelItem => item.Price)</p>
-                <div class="actions">
-                    <a asp-action="Edit" asp-route-id="@item.Id">Edit</a>
-                    <a asp-action="Details" asp-route-id="@item.Id">Details</a>
-                    <a asp-action="Delete" asp-route-id="@item.Id">Delete</a>
-                </div>
+               
             </div>
         }
     </div>
