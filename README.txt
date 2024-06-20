@@ -92,7 +92,21 @@ Resumed our work on frontend development.
 
 0020 - commited all the work team did and update the git.
 
+**The app is running fine  locally but facing problem after publishing it
 
+1300-We are facing issue in publishing on azure - Error 500
+
+1330- During Deployment on Azure,We are getting error of 500.30 which we are still doing troubleshoot .
+
+1345-Moreover,We have send the request to Andrew as it's Private group .
+
+1400-1450 Meanwhile,Everything works perfects in localhost not in Azure which will fix soon. 
+
+
+1500-The app is working fine locally but on web we are facing problem.
+We are finding the solution by troubleshooting.
+
+**We have submitted everything include troubleshoot screenshot on blackboard as well. 
 
 
 
